@@ -1,0 +1,42 @@
+body {
+    cursor: url("assets/cursor1.png"), auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+.isi  {
+    text-align: center;
+}
+
+.carakter {
+    display: flex;
+    gap: 30px;
+}
+.jewa {
+    display: flex;
+    gap: 20px;
+}
+
+.profil {
+    border-radius: 600px;
+}
+.jarak {
+    margin: 50px;
+    gap: 30px;
+}
+.icon {
+    cursor: pointer;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
