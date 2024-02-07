@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'DM Serif Display', serif;">Belajar Elemen Semantik di HTML</h1>
+    </header>
+        <nav style="text-align: center;">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+            <hr>
+            <article id="home" style="display : flex; gap : 10px; ">
+                <div>
+                    <h1>Belajar Semantik Elemen</h1>
+                        <p>
+                            Semantik elemen adalah elemen yang memiliki makna dan tujuan. Tujuannya agar kode HTML mudah dibaca dan tidak ada penyalahgunaan tag. Elemen semantik bagus Untuk SEO dan juga dapat meningkatkan accessibility.
+                            <br> <br> Pada awalnya HTML tidak memiliki semantic tag (elemen semantik) di dalamnya, jadi umumnya orang-orang membuat layout dengan menggunakan tag yang bukan sebagai kegunaannya. Ada yang membuatnya dengan <b> < table > </b> dan ada juga dengan tag <b> < div > </b>. Sebenarnya menggunakan kedua tag tersebut tidak sepenuhnya salah, karena membuat layout dengan kedua tag itu benar-benar bisa.
+                            <br> <br>
+                            Tapi itu bukanlah cara yang baik dan akan membuat kode HTML kita sulit dibaca. Oleh karena itu diciptakan elemen semantik sebagai solusinya.
+                            <br><br>
+                            Elemen Semantik mulai ditambahkan pada HTML 5. Elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri. Jadi tidak akan ada lagi yang namanya penyalahgunaan tag. Karena setiap tag sudah punya tujuan (makna) masing masing.
+                            </p>
+                </div>
+                    <div>
+                        <br><br><br><br>
+                        <img src="Screenshot (294).png" alt="image" width="400px">
+                    </div>
+            </article>
+            <article id="about">
+                <h1>Tentang Elemen Semantik</h1>
+                    <p>
+                    Berikut ini adalah daftar semantic element yang sering digunakan: <br>
+                    <b>< article ></b>      : untuk membuat elemen artikel. <br>
+                    <b>< aside ></b>        : untuk membuat elemen bagian samping. <br>
+                    <b>< details></b>       : untuk membuat elemen detail atau spoiler. <br>
+                    <b>< figcaption ></b>   : untuk membuat teks caption pada figure. <br>
+                    <b>< figure ></b>       : untuk membuat figure atau gambar pada artikel. <br>
+                    <b>< footer ></b>       : untuk membuat elemen bagian kaki dari web. <br>
+                    <b>< header ></b>       : untuk mebuat kepala kop dari web. <br>
+                    <b>< main ></b>         : untuk membuat elemen utama. <br>
+                    <b>< mark ></b>         : untuk menandai teks. <br>
+                    <b>< nav ></b>          : untuk membuat navigasi. <br>
+                    <b>< section ></b>      : untuk membuat bagian artikel. <br>
+                    <b>< summary ></b>      : untuk membuat ringkasan artikel atau isi spoiler. <br>
+                    <b>< time></b>          : untuk membuat elemen yang menyatakan waktu. <br>
+                    Dan masih banyak lagi yang bisa dilihat di HTML Tag Reference atau HTML elements reference.
+                    </p>
+            </article>
+            <article id="contact" style="text-align: center;">
+                <h1>Contact</h1>
+                    <img src="icons8-instagram-96.png" alt="Instagram" width="50px" onclick="location.href='https://www.instagram.com/'" class="icon">
+                    <img src="icons8-whatsapp-96.png" alt="whatsapp" width="50px" onclick="location.href='https://api.whatsapp.com/send/?phone=6282290471649&text&type=phone_number&app_absent=0'" class="icon">
+                    <br>
+                    <br>
+                    <p><h3><u>Thank You</u></h3></p>
+            </article>
+                <footer style="text-align: center;">
+                    Copyright &copy; 2022 by Ruangguru
+                </footer>
+</body>
+</html>
