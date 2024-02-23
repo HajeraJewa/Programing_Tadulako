@@ -1,0 +1,12 @@
+.img {
+    float: right;
+    width: 35%;
+}
+.jew {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 17%;
+    background-color: skyblue;
+    padding: 20px;
+}
